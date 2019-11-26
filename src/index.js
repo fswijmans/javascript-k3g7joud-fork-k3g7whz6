@@ -27,7 +27,7 @@ export default class MyElement extends LitElement {
 
   render() {
     return html`
-      <button class="btn">Goodbye ${this.name}!</button>
+      <button class="btn">Click me!</button>
     `;
   }
 }
