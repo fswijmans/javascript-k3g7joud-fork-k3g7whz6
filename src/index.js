@@ -19,9 +19,15 @@ export default class MyElement extends LitElement {
       .btn {
         font-size: 200%;
         margin-bottom: 55px;
+        background-color: #112277;
+        color: #fff;
+        border-radius: 4px;
+        border: 1px solid #334499;
       }
       .btn:hover {
         margin-top: 55px;
+      }
+      .btn:hover ::before {
       }
     `;
   }
