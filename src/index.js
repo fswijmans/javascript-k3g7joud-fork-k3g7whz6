@@ -18,9 +18,10 @@ export default class MyElement extends LitElement {
     return css`
       .btn {
         font-size: 200%;
+        margin-bottom: 55px;
       }
       .btn:hover {
-        margin-top: 50px;
+        margin-top: 55px;
       }
     `;
   }
